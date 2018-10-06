@@ -18,6 +18,9 @@ struct Class {
 }
 
 /// Registry for entity classes.
+/// 
+/// The purpose of the registry is to allow creating entities in the same way
+/// on the server and clients.
 #[derive(Default)]
 pub struct Reg {
     next_class_id: ClassId,
