@@ -1,0 +1,9 @@
+[package]
+name = "netgame"
+version = "0.1.0"
+authors = ["Leonard Dahlmann <leo.dahlmann@gmail.com>"]
+
+[dependencies]
+quinn = "0.1.0"
+specs = "0.12.0"
+specs-derive = "0.2.0"
